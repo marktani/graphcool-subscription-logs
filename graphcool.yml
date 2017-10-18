@@ -1,0 +1,17 @@
+types: ./types.graphql
+
+functions:
+  no-logs:
+    type: subscription
+    query: src/userSubscription.graphql
+    handler:
+      code: src/no-logs.js
+
+  logs:
+    type: subscription
+    query: src/userSubscription.graphql
+    handler:
+      code: src/logs.js
+
+permissions:
+- operation: "*"
