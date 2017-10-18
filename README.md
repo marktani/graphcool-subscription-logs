@@ -35,4 +35,3 @@ Observe that logs for function `logs` are created, but not for function `no-logs
 ## Expected behaviour
 
 Logs for function `no-logs` should be created, too.
->>>>>>> add readme
